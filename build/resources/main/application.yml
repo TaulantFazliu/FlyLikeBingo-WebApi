@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bingo
+    username: postgres
+    password: password
+
+springdoc:
+  swagger-ui:
+    tags-sorter: 'alpha'
+    operations-sorter: 'alpha'
+
